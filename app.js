@@ -74,6 +74,7 @@ checkButton.addEventListener("click",(e)=>{
  }})
         
  restartButton.addEventListener('click', () => {
+     randomNumber= Math.ceil(Math.random()*100)
     window.location.reload();
     guessInput.focus();
        
